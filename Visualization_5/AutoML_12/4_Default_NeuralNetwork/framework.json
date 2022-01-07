@@ -1,0 +1,769 @@
+{
+    "uid": "9e0098e4-4c72-44ef-9008-fc6b4c92ce70",
+    "name": "4_Default_NeuralNetwork",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "\b",
+                "\u00c0",
+                "\u00c8",
+                "\u00c5",
+                "\u00d8"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        4.7828687714968945,
+                        170.98293887234257,
+                        69.4118591308249,
+                        42.754395706545594,
+                        56.648208742828366,
+                        20.99068852684251,
+                        16.34949900218194,
+                        56.33428742333628,
+                        52.28906290231915,
+                        14.652058217808973,
+                        61.839349267536676,
+                        52.88590261246031,
+                        26.78773365490051,
+                        93.56097442472661,
+                        48.662637650039294,
+                        17.676176240618133,
+                        34.57718684278599,
+                        15.727088579450594,
+                        14.13166022173468,
+                        20.121642541991733,
+                        7.31450478750916,
+                        10.677186732392503,
+                        22.368313789683405,
+                        4.313044586255117,
+                        9.922673313826353,
+                        4.14017193448931,
+                        15.212866598538472,
+                        2.1918333200970337,
+                        9.512919767982767,
+                        2.2467388955497936,
+                        2.0604880920509396,
+                        1.5006992698994521,
+                        2.5110743461257052,
+                        1.7856017563919906,
+                        2.2017852724671743,
+                        3.349814269288875,
+                        5.411561948003205,
+                        5.6425353087007695,
+                        5.4139761752768205,
+                        5.69222986728433,
+                        1.5806142988903882,
+                        3.216150709507157,
+                        1.6450649243525355,
+                        4.911722998127435,
+                        2.083938430386683,
+                        1.7836283366408543,
+                        2.3281955497677624,
+                        1.4335053380770217,
+                        2.0124491563280036,
+                        2.506424193584409,
+                        1.2217085628923137,
+                        1.7776654486671566,
+                        1.9925981283207075,
+                        1.5038443613133576,
+                        1.191290983387077,
+                        2.4950934950086094,
+                        2.551606290975586,
+                        1.3038122455977457,
+                        1.683939100297207,
+                        2.4767806688989538,
+                        4.108587000991643,
+                        1.7293095421420606,
+                        1.8843773196463949
+                    ],
+                    "mean": [
+                        5.308231884057971,
+                        230.4463768115942,
+                        91.3871304347826,
+                        54.072,
+                        75.1976231884058,
+                        26.933333333333334,
+                        20.37536231884058,
+                        73.15953623188406,
+                        67.01831884057971,
+                        18.822492753623187,
+                        79.71739130434783,
+                        66.53489855072463,
+                        34.43750724637681,
+                        120.884,
+                        60.225449275362315,
+                        21.74127536231884,
+                        44.00226086956522,
+                        20.659130434782607,
+                        16.485565217391304,
+                        26.33814492753623,
+                        8.28527536231884,
+                        10.88527536231884,
+                        27.02927536231884,
+                        2.664695652173913,
+                        13.071246376811594,
+                        4.379652173913043,
+                        18.62,
+                        1.3958260869565218,
+                        12.366666666666667,
+                        1.4330434782608696,
+                        1.4068405797101449,
+                        0.808695652173913,
+                        1.6516521739130434,
+                        0.979072463768116,
+                        1.1835942028985507,
+                        2.6065507246376813,
+                        4.094086956521739,
+                        4.375014492753623,
+                        4.096869565217391,
+                        5.257913043478261,
+                        0.6560579710144927,
+                        2.3803478260869566,
+                        0.8159420289855073,
+                        2.667826086956522,
+                        1.6813333333333333,
+                        1.49431884057971,
+                        1.5252173913043479,
+                        0.7108405797101449,
+                        1.1069565217391304,
+                        1.7706086956521738,
+                        0.5918840579710145,
+                        0.9370434782608695,
+                        1.0959420289855073,
+                        0.7618550724637682,
+                        0.7371014492753624,
+                        1.5890434782608696,
+                        1.2311304347826086,
+                        0.5563478260869565,
+                        0.9483478260869566,
+                        1.5335072463768116,
+                        1.0369855072463767,
+                        0.28301449275362317,
+                        1.0278260869565217
+                    ],
+                    "var": [
+                        22.875833685360217,
+                        29235.165385423235,
+                        4818.00618799748,
+                        1827.9383522318842,
+                        3209.019553771056,
+                        440.60900483091785,
+                        267.3061176223482,
+                        3173.5519394950643,
+                        2734.146099202689,
+                        214.68281001806344,
+                        3824.1051178323887,
+                        2796.9186951346364,
+                        717.5826743658895,
+                        8753.655935304347,
+                        2368.0523030590216,
+                        312.447206489393,
+                        1195.5818499609327,
+                        247.3413151858853,
+                        199.70382062255828,
+                        404.8804985876916,
+                        53.50198028649443,
+                        114.00231651837849,
+                        500.3414617937408,
+                        18.602353603024575,
+                        98.45944569292165,
+                        17.141023647132958,
+                        231.43131014492752,
+                        4.804133303087586,
+                        90.4956425120773,
+                        5.047835664776307,
+                        4.245611177483722,
+                        2.2520982986767484,
+                        6.305494371770638,
+                        3.188373632430162,
+                        4.84785838605335,
+                        11.221255638731359,
+                        29.285002717076242,
+                        31.83820470993489,
+                        29.311138026465027,
+                        32.40148086200378,
+                        2.498341561856753,
+                        10.343625386263389,
+                        2.7062386053350136,
+                        24.125022810333963,
+                        4.342799381642513,
+                        3.181330043268221,
+                        5.420494517958413,
+                        2.0549375542953165,
+                        4.049951606805293,
+                        6.282162238185255,
+                        1.4925718126444023,
+                        3.1600944473850032,
+                        3.9704473009871863,
+                        2.2615478630539805,
+                        1.419174207099349,
+                        6.225491548834278,
+                        6.510694664146187,
+                        1.6999263717706365,
+                        2.8356508935097673,
+                        6.134442481831549,
+                        16.880487144717502,
+                        2.9905114925435834,
+                        3.5508778827977316
+                    ],
+                    "n_samples_seen": 17250,
+                    "n_features_in": 63,
+                    "columns": [
+                        "I",
+                        " ",
+                        "t",
+                        "h",
+                        "o",
+                        "u",
+                        "g",
+                        "i",
+                        "s",
+                        "w",
+                        "a",
+                        "n",
+                        "d",
+                        "e",
+                        "r",
+                        "f",
+                        "l",
+                        "y",
+                        "p",
+                        "m",
+                        "k",
+                        ",",
+                        "c",
+                        "-",
+                        ".",
+                        "T",
+                        "b",
+                        "(",
+                        "v",
+                        ")",
+                        "W",
+                        "z",
+                        "M",
+                        "P",
+                        "R",
+                        "A",
+                        "<",
+                        "/",
+                        ">",
+                        "'",
+                        "?",
+                        "S",
+                        "J",
+                        "\"",
+                        "x",
+                        "j",
+                        "D",
+                        "1",
+                        "L",
+                        "B",
+                        "V",
+                        "G",
+                        "O",
+                        "0",
+                        "q",
+                        "H",
+                        "E",
+                        "K",
+                        "F",
+                        "C",
+                        "!",
+                        "*",
+                        "N"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "I": [
+                        "scale_normal"
+                    ],
+                    " ": [
+                        "scale_normal"
+                    ],
+                    "t": [
+                        "scale_normal"
+                    ],
+                    "h": [
+                        "scale_normal"
+                    ],
+                    "o": [
+                        "scale_normal"
+                    ],
+                    "u": [
+                        "scale_normal"
+                    ],
+                    "g": [
+                        "scale_normal"
+                    ],
+                    "i": [
+                        "scale_normal"
+                    ],
+                    "s": [
+                        "scale_normal"
+                    ],
+                    "w": [
+                        "scale_normal"
+                    ],
+                    "a": [
+                        "scale_normal"
+                    ],
+                    "n": [
+                        "scale_normal"
+                    ],
+                    "d": [
+                        "scale_normal"
+                    ],
+                    "e": [
+                        "scale_normal"
+                    ],
+                    "r": [
+                        "scale_normal"
+                    ],
+                    "f": [
+                        "scale_normal"
+                    ],
+                    "l": [
+                        "scale_normal"
+                    ],
+                    "y": [
+                        "scale_normal"
+                    ],
+                    "p": [
+                        "scale_normal"
+                    ],
+                    "m": [
+                        "scale_normal"
+                    ],
+                    "k": [
+                        "scale_normal"
+                    ],
+                    ",": [
+                        "scale_normal"
+                    ],
+                    "c": [
+                        "scale_normal"
+                    ],
+                    "-": [
+                        "scale_normal"
+                    ],
+                    ".": [
+                        "scale_normal"
+                    ],
+                    "T": [
+                        "scale_normal"
+                    ],
+                    "b": [
+                        "scale_normal"
+                    ],
+                    "(": [
+                        "scale_normal"
+                    ],
+                    "v": [
+                        "scale_normal"
+                    ],
+                    ")": [
+                        "scale_normal"
+                    ],
+                    "W": [
+                        "scale_normal"
+                    ],
+                    "z": [
+                        "scale_normal"
+                    ],
+                    "M": [
+                        "scale_normal"
+                    ],
+                    "P": [
+                        "scale_normal"
+                    ],
+                    "R": [
+                        "scale_normal"
+                    ],
+                    "A": [
+                        "scale_normal"
+                    ],
+                    "<": [
+                        "scale_normal"
+                    ],
+                    "/": [
+                        "scale_normal"
+                    ],
+                    ">": [
+                        "scale_normal"
+                    ],
+                    "'": [
+                        "scale_normal"
+                    ],
+                    "?": [
+                        "scale_normal"
+                    ],
+                    "S": [
+                        "scale_normal"
+                    ],
+                    "J": [
+                        "scale_normal"
+                    ],
+                    "\"": [
+                        "scale_normal"
+                    ],
+                    "x": [
+                        "scale_normal"
+                    ],
+                    "j": [
+                        "scale_normal"
+                    ],
+                    "D": [
+                        "scale_normal"
+                    ],
+                    "1": [
+                        "scale_normal"
+                    ],
+                    "L": [
+                        "scale_normal"
+                    ],
+                    "B": [
+                        "scale_normal"
+                    ],
+                    "V": [
+                        "scale_normal"
+                    ],
+                    "G": [
+                        "scale_normal"
+                    ],
+                    "O": [
+                        "scale_normal"
+                    ],
+                    "0": [
+                        "scale_normal"
+                    ],
+                    "q": [
+                        "scale_normal"
+                    ],
+                    "H": [
+                        "scale_normal"
+                    ],
+                    "E": [
+                        "scale_normal"
+                    ],
+                    "K": [
+                        "scale_normal"
+                    ],
+                    "F": [
+                        "scale_normal"
+                    ],
+                    "C": [
+                        "scale_normal"
+                    ],
+                    "!": [
+                        "scale_normal"
+                    ],
+                    "*": [
+                        "scale_normal"
+                    ],
+                    "N": [
+                        "scale_normal"
+                    ],
+                    "\b": [
+                        "remove_column"
+                    ],
+                    "\u00c0": [
+                        "remove_column"
+                    ],
+                    "\u00c8": [
+                        "remove_column"
+                    ],
+                    "\u00c5": [
+                        "remove_column"
+                    ],
+                    "\u00d8": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "4c15614e-808c-48e3-b592-69566f149e4f",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 4,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "I": [
+                    "scale_normal"
+                ],
+                " ": [
+                    "scale_normal"
+                ],
+                "t": [
+                    "scale_normal"
+                ],
+                "h": [
+                    "scale_normal"
+                ],
+                "o": [
+                    "scale_normal"
+                ],
+                "u": [
+                    "scale_normal"
+                ],
+                "g": [
+                    "scale_normal"
+                ],
+                "i": [
+                    "scale_normal"
+                ],
+                "s": [
+                    "scale_normal"
+                ],
+                "w": [
+                    "scale_normal"
+                ],
+                "a": [
+                    "scale_normal"
+                ],
+                "n": [
+                    "scale_normal"
+                ],
+                "d": [
+                    "scale_normal"
+                ],
+                "e": [
+                    "scale_normal"
+                ],
+                "r": [
+                    "scale_normal"
+                ],
+                "f": [
+                    "scale_normal"
+                ],
+                "l": [
+                    "scale_normal"
+                ],
+                "y": [
+                    "scale_normal"
+                ],
+                "p": [
+                    "scale_normal"
+                ],
+                "m": [
+                    "scale_normal"
+                ],
+                "k": [
+                    "scale_normal"
+                ],
+                ",": [
+                    "scale_normal"
+                ],
+                "c": [
+                    "scale_normal"
+                ],
+                "-": [
+                    "scale_normal"
+                ],
+                ".": [
+                    "scale_normal"
+                ],
+                "T": [
+                    "scale_normal"
+                ],
+                "b": [
+                    "scale_normal"
+                ],
+                "(": [
+                    "scale_normal"
+                ],
+                "v": [
+                    "scale_normal"
+                ],
+                ")": [
+                    "scale_normal"
+                ],
+                "W": [
+                    "scale_normal"
+                ],
+                "z": [
+                    "scale_normal"
+                ],
+                "M": [
+                    "scale_normal"
+                ],
+                "P": [
+                    "scale_normal"
+                ],
+                "R": [
+                    "scale_normal"
+                ],
+                "A": [
+                    "scale_normal"
+                ],
+                "<": [
+                    "scale_normal"
+                ],
+                "/": [
+                    "scale_normal"
+                ],
+                ">": [
+                    "scale_normal"
+                ],
+                "'": [
+                    "scale_normal"
+                ],
+                "?": [
+                    "scale_normal"
+                ],
+                "S": [
+                    "scale_normal"
+                ],
+                "J": [
+                    "scale_normal"
+                ],
+                "\"": [
+                    "scale_normal"
+                ],
+                "x": [
+                    "scale_normal"
+                ],
+                "j": [
+                    "scale_normal"
+                ],
+                "D": [
+                    "scale_normal"
+                ],
+                "1": [
+                    "scale_normal"
+                ],
+                "L": [
+                    "scale_normal"
+                ],
+                "B": [
+                    "scale_normal"
+                ],
+                "V": [
+                    "scale_normal"
+                ],
+                "G": [
+                    "scale_normal"
+                ],
+                "O": [
+                    "scale_normal"
+                ],
+                "0": [
+                    "scale_normal"
+                ],
+                "q": [
+                    "scale_normal"
+                ],
+                "H": [
+                    "scale_normal"
+                ],
+                "E": [
+                    "scale_normal"
+                ],
+                "K": [
+                    "scale_normal"
+                ],
+                "F": [
+                    "scale_normal"
+                ],
+                "C": [
+                    "scale_normal"
+                ],
+                "!": [
+                    "scale_normal"
+                ],
+                "*": [
+                    "scale_normal"
+                ],
+                "N": [
+                    "scale_normal"
+                ],
+                "\b": [
+                    "remove_column"
+                ],
+                "\u00c0": [
+                    "remove_column"
+                ],
+                "\u00c8": [
+                    "remove_column"
+                ],
+                "\u00c5": [
+                    "remove_column"
+                ],
+                "\u00d8": [
+                    "remove_column"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_12\\X.data",
+            "y_path": "AutoML_12\\y.data",
+            "results_path": "AutoML_12"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "dense_1_size": 32,
+            "dense_2_size": 16,
+            "learning_rate": 0.05,
+            "seed": 4,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "4_Default_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 360.0
+    },
+    "saved": [
+        "4_Default_NeuralNetwork\\learner_fold_0.neural_network"
+    ],
+    "predictions_fname": "4_Default_NeuralNetwork\\predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.6587145441051598,
+    "train_time": 20.87266254425049,
+    "is_stacked": false,
+    "threshold": 0.47001050662884114
+}

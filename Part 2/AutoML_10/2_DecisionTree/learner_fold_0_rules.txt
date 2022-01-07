@@ -1,0 +1,16 @@
+if (? <= 0.5) and (l <= 39.5) and (b > 8.5) then class: 0 (proba: 56.17%) | based on 486 samples
+
+if (? <= 0.5) and (l > 39.5) and (: <= 4.5) then class: 1 (proba: 66.15%) | based on 390 samples
+
+if (? <= 0.5) and (l <= 39.5) and (b <= 8.5) then class: 1 (proba: 64.38%) | based on 320 samples
+
+if (? > 0.5) and (D <= 8.5) and (b > 18.5) then class: 0 (proba: 73.95%) | based on 261 samples
+
+if (? > 0.5) and (D <= 8.5) and (b <= 18.5) then class: 0 (proba: 56.12%) | based on 237 samples
+
+if (? > 0.5) and (D > 8.5) and (? <= 3.5) then class: 1 (proba: 85.71%) | based on 21 samples
+
+if (? <= 0.5) and (l > 39.5) and (: > 4.5) then class: 0 (proba: 100.0%) | based on 7 samples
+
+if (? > 0.5) and (D > 8.5) and (? > 3.5) then class: 0 (proba: 100.0%) | based on 3 samples
+

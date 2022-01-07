@@ -1,0 +1,19 @@
+{
+    "columns": [
+        "sentence"
+    ],
+    "rows": 20000,
+    "cols": 1,
+    "target_is_numeric": false,
+    "columns_info": {
+        "sentence": [
+            "text_transform"
+        ]
+    },
+    "target_info": [
+        "convert_0_1"
+    ],
+    "n_features": 1,
+    "is_sample_weighted": false,
+    "n_classes": 2
+}

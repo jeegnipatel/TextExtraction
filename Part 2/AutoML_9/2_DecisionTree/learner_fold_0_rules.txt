@@ -1,0 +1,16 @@
+if (? <= 0.5) and (f <= 21.5) and (b > 9.5) then class: 0 (proba: 55.2%) | based on 442 samples
+
+if (? > 0.5) and (9 <= 3.5) and (? <= 4.5) then class: 0 (proba: 63.95%) | based on 405 samples
+
+if (? <= 0.5) and (f <= 21.5) and (b <= 9.5) then class: 1 (proba: 57.62%) | based on 387 samples
+
+if (? <= 0.5) and (f > 21.5) and (' > 3.5) then class: 1 (proba: 62.21%) | based on 262 samples
+
+if (? <= 0.5) and (f > 21.5) and (' <= 3.5) then class: 1 (proba: 83.52%) | based on 91 samples
+
+if (? > 0.5) and (9 <= 3.5) and (? > 4.5) then class: 0 (proba: 90.38%) | based on 52 samples
+
+if (? > 0.5) and (9 > 3.5) and (A <= 16.5) then class: 1 (proba: 100.0%) | based on 10 samples
+
+if (? > 0.5) and (9 > 3.5) and (A > 16.5) then class: 0 (proba: 100.0%) | based on 1 samples
+

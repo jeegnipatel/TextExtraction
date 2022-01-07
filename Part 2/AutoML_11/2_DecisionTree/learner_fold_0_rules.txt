@@ -1,0 +1,16 @@
+if (? <= 1.5) and (J <= 2.5) and (. <= 17.5) then class: 1 (proba: 54.99%) | based on 1,102 samples
+
+if (? <= 1.5) and (J <= 2.5) and (. > 17.5) then class: 0 (proba: 57.33%) | based on 232 samples
+
+if (? > 1.5) and (7 <= 0.5) and (g > 6.5) then class: 0 (proba: 73.66%) | based on 205 samples
+
+if (? <= 1.5) and (J > 2.5) and (c <= 48.5) then class: 1 (proba: 61.46%) | based on 96 samples
+
+if (? <= 1.5) and (J > 2.5) and (c > 48.5) then class: 1 (proba: 88.1%) | based on 42 samples
+
+if (? > 1.5) and (7 > 0.5) and (8 <= 0.5) then class: 0 (proba: 52.0%) | based on 25 samples
+
+if (? > 1.5) and (7 > 0.5) and (8 > 0.5) then class: 1 (proba: 85.71%) | based on 14 samples
+
+if (? > 1.5) and (7 <= 0.5) and (g <= 6.5) then class: 1 (proba: 77.78%) | based on 9 samples
+

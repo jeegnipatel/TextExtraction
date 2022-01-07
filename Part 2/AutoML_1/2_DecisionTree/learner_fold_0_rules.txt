@@ -1,0 +1,10 @@
+if (sentence <= 9.5) and (sentence > 0.5) and (sentence > 2.5) then class: positive (proba: 76.92%) | based on 13 samples
+
+if (sentence > 9.5) and (sentence <= 12.5) then class: negative (proba: 100.0%) | based on 7 samples
+
+if (sentence <= 9.5) and (sentence > 0.5) and (sentence <= 2.5) then class: negative (proba: 100.0%) | based on 5 samples
+
+if (sentence <= 9.5) and (sentence <= 0.5) then class: positive (proba: 100.0%) | based on 4 samples
+
+if (sentence > 9.5) and (sentence > 12.5) then class: positive (proba: 100.0%) | based on 1 samples
+

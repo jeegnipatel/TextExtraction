@@ -1,0 +1,119 @@
+{
+    "uid": "ddf6d7d7-9d6a-4aa5-ba57-804ae85b196d",
+    "name": "1_Baseline",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "\b",
+                "\u00c0",
+                "\u00c8",
+                "\u00c5",
+                "\u00d8"
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "\b": [
+                        "remove_column"
+                    ],
+                    "\u00c0": [
+                        "remove_column"
+                    ],
+                    "\u00c8": [
+                        "remove_column"
+                    ],
+                    "\u00c5": [
+                        "remove_column"
+                    ],
+                    "\u00d8": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "Baseline Classifier",
+            "algorithm_short_name": "Baseline",
+            "uid": "00e6cddb-3ac3-40e3-8877-6711c62f7a6c",
+            "params": {
+                "model_type": "Baseline",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "\b": [
+                    "remove_column"
+                ],
+                "\u00c0": [
+                    "remove_column"
+                ],
+                "\u00c8": [
+                    "remove_column"
+                ],
+                "\u00c5": [
+                    "remove_column"
+                ],
+                "\u00d8": [
+                    "remove_column"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_12\\X.data",
+            "y_path": "AutoML_12\\y.data",
+            "results_path": "AutoML_12"
+        },
+        "learner": {
+            "model_type": "Baseline",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "1_Baseline",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 360.0
+    },
+    "saved": [
+        "1_Baseline\\learner_fold_0.baseline"
+    ],
+    "predictions_fname": "1_Baseline\\predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.693139867792759,
+    "train_time": 3.047093629837036,
+    "is_stacked": false,
+    "threshold": 0.4516695652173913
+}

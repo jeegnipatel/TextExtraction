@@ -1,0 +1,661 @@
+{
+    "columns": [
+        "I",
+        " ",
+        "t",
+        "h",
+        "o",
+        "u",
+        "g",
+        "i",
+        "s",
+        "w",
+        "a",
+        "n",
+        "d",
+        "e",
+        "r",
+        "f",
+        "l",
+        "y",
+        "p",
+        "m",
+        "k",
+        ",",
+        "c",
+        "-",
+        ".",
+        "T",
+        "b",
+        "(",
+        "v",
+        ")",
+        "W",
+        "z",
+        "M",
+        "P",
+        "2",
+        ":",
+        "R",
+        "A",
+        "<",
+        "/",
+        ">",
+        "'",
+        "?",
+        "S",
+        "J",
+        "\"",
+        "x",
+        "j",
+        "D",
+        "1",
+        "5",
+        "L",
+        "B",
+        "V",
+        "G",
+        "Y",
+        "O",
+        "0",
+        "q",
+        "&",
+        "7",
+        "8",
+        "9",
+        "H",
+        "E",
+        "+",
+        "K",
+        "F",
+        "C",
+        "U",
+        "!",
+        "*",
+        "N",
+        ";",
+        "4",
+        "\u00e0",
+        "\u00e8",
+        "$",
+        "3",
+        "%",
+        "Z",
+        "\u00e9",
+        "=",
+        "X",
+        "6",
+        "Q",
+        "\u00fb",
+        "`",
+        "\u00fc",
+        "\u0085",
+        "\u00f3",
+        "\u0096",
+        "\u0097",
+        "\u00ed",
+        "\t",
+        "\u2019",
+        "\u2013",
+        "\u00f1",
+        "\u00f4",
+        "\u0084",
+        "\u00eb",
+        "}",
+        "^",
+        "_",
+        "~",
+        "#",
+        "@",
+        "{",
+        "[",
+        "]",
+        "\u00e3",
+        "\u00e1",
+        "\u00e5",
+        "\u00fa",
+        "\u00ec",
+        "\u00c1",
+        "\u201c",
+        "\u201d",
+        "\u00ea",
+        "\u00b4",
+        "\u00a7",
+        "\u0091",
+        "\u00e4",
+        "\u00ef",
+        "\u00d5",
+        "\u00e7",
+        "\u00e2",
+        "\u00d6",
+        "\u00f6",
+        "\u00cf",
+        "\u00f9",
+        "\u00d0",
+        "\u00c9",
+        "\u00f5",
+        "\u00b7",
+        "\\",
+        "\u00bd",
+        "\u00a3",
+        "\u014d",
+        "\u0095",
+        "\u00fd",
+        "\u0010",
+        "\u00f0",
+        "\u00d3",
+        "\u00ab",
+        "\u00bb",
+        "\u00ee",
+        "\u00a0",
+        "\u00df",
+        "|",
+        "\u00f8",
+        "\u2026",
+        "\b",
+        "\u0080",
+        "\u00be",
+        "\u00dc",
+        "\u2018",
+        "\u00c6",
+        "\u00ae",
+        "\u00a1",
+        "\u00f2",
+        "\u00b0",
+        "\u2033",
+        "\u00e6",
+        "\u00de",
+        "\u00b3",
+        "\u00c0",
+        "\u008e",
+        "\u009e",
+        "\u00c7",
+        "\u00a8",
+        "\u00ad",
+        "\u00c8",
+        "\u00a2",
+        "\u00a9",
+        "\u00aa",
+        "\u00a4",
+        "\u008d",
+        "\u05d9",
+        "\u05d2",
+        "\u05d0",
+        "\u05dc",
+        "\u05db",
+        "\u05e8",
+        "\u05de",
+        "\u05d5",
+        "\u05df",
+        "\u2605",
+        "\u00ca",
+        "\uff0c",
+        "\u3001",
+        "\u00c5",
+        "\u00d8"
+    ],
+    "rows": 2200,
+    "cols": 193,
+    "target_is_numeric": true,
+    "columns_info": {
+        "I": [
+            "scale"
+        ],
+        " ": [
+            "scale"
+        ],
+        "t": [
+            "scale"
+        ],
+        "h": [
+            "scale"
+        ],
+        "o": [
+            "scale"
+        ],
+        "u": [
+            "scale"
+        ],
+        "g": [
+            "scale"
+        ],
+        "i": [
+            "scale"
+        ],
+        "s": [
+            "scale"
+        ],
+        "w": [
+            "scale"
+        ],
+        "a": [
+            "scale"
+        ],
+        "n": [
+            "scale"
+        ],
+        "d": [
+            "scale"
+        ],
+        "e": [
+            "scale"
+        ],
+        "r": [
+            "scale"
+        ],
+        "f": [
+            "scale"
+        ],
+        "l": [
+            "scale"
+        ],
+        "y": [
+            "scale"
+        ],
+        "p": [
+            "scale"
+        ],
+        "m": [
+            "scale"
+        ],
+        "k": [
+            "scale"
+        ],
+        ",": [
+            "scale"
+        ],
+        "c": [
+            "scale"
+        ],
+        "-": [
+            "scale"
+        ],
+        ".": [
+            "scale"
+        ],
+        "T": [
+            "scale"
+        ],
+        "b": [
+            "scale"
+        ],
+        "(": [
+            "scale"
+        ],
+        "v": [
+            "scale"
+        ],
+        ")": [
+            "scale"
+        ],
+        "W": [
+            "scale"
+        ],
+        "z": [
+            "scale"
+        ],
+        "M": [
+            "scale"
+        ],
+        "P": [
+            "scale"
+        ],
+        "2": [],
+        ":": [],
+        "R": [
+            "scale"
+        ],
+        "A": [
+            "scale"
+        ],
+        "<": [
+            "scale"
+        ],
+        "/": [
+            "scale"
+        ],
+        ">": [
+            "scale"
+        ],
+        "'": [
+            "scale"
+        ],
+        "?": [
+            "scale"
+        ],
+        "S": [
+            "scale"
+        ],
+        "J": [
+            "scale"
+        ],
+        "\"": [
+            "scale"
+        ],
+        "x": [
+            "scale"
+        ],
+        "j": [
+            "scale"
+        ],
+        "D": [
+            "scale"
+        ],
+        "1": [
+            "scale"
+        ],
+        "5": [],
+        "L": [
+            "scale"
+        ],
+        "B": [
+            "scale"
+        ],
+        "V": [
+            "scale"
+        ],
+        "G": [
+            "scale"
+        ],
+        "Y": [],
+        "O": [
+            "scale"
+        ],
+        "0": [
+            "scale"
+        ],
+        "q": [
+            "scale"
+        ],
+        "&": [
+            "scale"
+        ],
+        "7": [],
+        "8": [],
+        "9": [],
+        "H": [
+            "scale"
+        ],
+        "E": [
+            "scale"
+        ],
+        "+": [],
+        "K": [
+            "scale"
+        ],
+        "F": [
+            "scale"
+        ],
+        "C": [
+            "scale"
+        ],
+        "U": [],
+        "!": [
+            "scale"
+        ],
+        "*": [
+            "scale"
+        ],
+        "N": [
+            "scale"
+        ],
+        ";": [],
+        "4": [],
+        "\u00e0": [],
+        "\u00e8": [],
+        "$": [],
+        "3": [],
+        "%": [],
+        "Z": [],
+        "\u00e9": [],
+        "=": [],
+        "X": [],
+        "6": [],
+        "Q": [],
+        "\u00fb": [
+            "constant_column"
+        ],
+        "`": [],
+        "\u00fc": [],
+        "\u0085": [],
+        "\u00f3": [],
+        "\u0096": [],
+        "\u0097": [],
+        "\u00ed": [],
+        "\t": [],
+        "\u2019": [
+            "constant_column"
+        ],
+        "\u2013": [
+            "constant_column"
+        ],
+        "\u00f1": [],
+        "\u00f4": [
+            "constant_column"
+        ],
+        "\u0084": [],
+        "\u00eb": [],
+        "}": [],
+        "^": [],
+        "_": [],
+        "~": [],
+        "#": [],
+        "@": [],
+        "{": [],
+        "[": [],
+        "]": [],
+        "\u00e3": [],
+        "\u00e1": [],
+        "\u00e5": [
+            "constant_column"
+        ],
+        "\u00fa": [
+            "constant_column"
+        ],
+        "\u00ec": [
+            "constant_column"
+        ],
+        "\u00c1": [],
+        "\u201c": [
+            "constant_column"
+        ],
+        "\u201d": [
+            "constant_column"
+        ],
+        "\u00ea": [
+            "constant_column"
+        ],
+        "\u00b4": [],
+        "\u00a7": [
+            "constant_column"
+        ],
+        "\u0091": [],
+        "\u00e4": [],
+        "\u00ef": [],
+        "\u00d5": [
+            "constant_column"
+        ],
+        "\u00e7": [
+            "constant_column"
+        ],
+        "\u00e2": [
+            "constant_column"
+        ],
+        "\u00d6": [],
+        "\u00f6": [],
+        "\u00cf": [
+            "constant_column"
+        ],
+        "\u00f9": [],
+        "\u00d0": [
+            "constant_column"
+        ],
+        "\u00c9": [
+            "constant_column"
+        ],
+        "\u00f5": [
+            "constant_column"
+        ],
+        "\u00b7": [
+            "constant_column"
+        ],
+        "\\": [],
+        "\u00bd": [],
+        "\u00a3": [],
+        "\u014d": [],
+        "\u0095": [
+            "constant_column"
+        ],
+        "\u00fd": [
+            "constant_column"
+        ],
+        "\u0010": [
+            "constant_column"
+        ],
+        "\u00f0": [
+            "constant_column"
+        ],
+        "\u00d3": [
+            "constant_column"
+        ],
+        "\u00ab": [],
+        "\u00bb": [],
+        "\u00ee": [
+            "constant_column"
+        ],
+        "\u00a0": [],
+        "\u00df": [
+            "constant_column"
+        ],
+        "|": [],
+        "\u00f8": [
+            "constant_column"
+        ],
+        "\u2026": [
+            "constant_column"
+        ],
+        "\b": [
+            "constant_column"
+        ],
+        "\u0080": [
+            "constant_column"
+        ],
+        "\u00be": [
+            "constant_column"
+        ],
+        "\u00dc": [
+            "constant_column"
+        ],
+        "\u2018": [
+            "constant_column"
+        ],
+        "\u00c6": [
+            "constant_column"
+        ],
+        "\u00ae": [
+            "constant_column"
+        ],
+        "\u00a1": [],
+        "\u00f2": [
+            "constant_column"
+        ],
+        "\u00b0": [
+            "constant_column"
+        ],
+        "\u2033": [
+            "constant_column"
+        ],
+        "\u00e6": [
+            "constant_column"
+        ],
+        "\u00de": [
+            "constant_column"
+        ],
+        "\u00b3": [
+            "constant_column"
+        ],
+        "\u00c0": [
+            "constant_column"
+        ],
+        "\u008e": [
+            "constant_column"
+        ],
+        "\u009e": [
+            "constant_column"
+        ],
+        "\u00c7": [
+            "constant_column"
+        ],
+        "\u00a8": [
+            "constant_column"
+        ],
+        "\u00ad": [
+            "constant_column"
+        ],
+        "\u00c8": [
+            "constant_column"
+        ],
+        "\u00a2": [],
+        "\u00a9": [
+            "constant_column"
+        ],
+        "\u00aa": [
+            "constant_column"
+        ],
+        "\u00a4": [
+            "constant_column"
+        ],
+        "\u008d": [
+            "constant_column"
+        ],
+        "\u05d9": [
+            "constant_column"
+        ],
+        "\u05d2": [
+            "constant_column"
+        ],
+        "\u05d0": [
+            "constant_column"
+        ],
+        "\u05dc": [
+            "constant_column"
+        ],
+        "\u05db": [
+            "constant_column"
+        ],
+        "\u05e8": [
+            "constant_column"
+        ],
+        "\u05de": [
+            "constant_column"
+        ],
+        "\u05d5": [
+            "constant_column"
+        ],
+        "\u05df": [
+            "constant_column"
+        ],
+        "\u2605": [
+            "constant_column"
+        ],
+        "\u00ca": [
+            "constant_column"
+        ],
+        "\uff0c": [
+            "constant_column"
+        ],
+        "\u3001": [
+            "constant_column"
+        ],
+        "\u00c5": [
+            "constant_column"
+        ],
+        "\u00d8": [
+            "constant_column"
+        ]
+    },
+    "target_info": [],
+    "n_features": 193,
+    "is_sample_weighted": false,
+    "n_classes": 2
+}

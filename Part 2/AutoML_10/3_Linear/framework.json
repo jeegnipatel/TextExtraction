@@ -1,0 +1,1148 @@
+{
+    "uid": "f1fd8cac-93c2-486d-92a2-12e85ae017a7",
+    "name": "3_Linear",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "\u2013",
+                "\u00ec",
+                "\u00c1",
+                "\u201d",
+                "\u00a7",
+                "\u00e2",
+                "\u00d6",
+                "\u00cf",
+                "\u00f9",
+                "\u00d0",
+                "\u00f5",
+                "\\",
+                "\u014d",
+                "\u0010",
+                "\u00ee",
+                "\u00a0",
+                "\u00df",
+                "|",
+                "\u00f8",
+                "\u2026",
+                "\b",
+                "\u0080",
+                "\u00be",
+                "\u00dc",
+                "\u00c6",
+                "\u00ae",
+                "\u00f2",
+                "\u00b0",
+                "\u2033",
+                "\u00de",
+                "\u00b3",
+                "\u00c0",
+                "\u008e",
+                "\u009e",
+                "\u00c7",
+                "\u00a8",
+                "\u00ad",
+                "\u00c8",
+                "\u00a9",
+                "\u00aa",
+                "\u00a4",
+                "\u008d",
+                "\u05d9",
+                "\u05d2",
+                "\u05d0",
+                "\u05dc",
+                "\u05db",
+                "\u05e8",
+                "\u05de",
+                "\u05d5",
+                "\u05df",
+                "\u2605",
+                "\u00ca",
+                "\uff0c",
+                "\u3001",
+                "\u00c5",
+                "\u00d8"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        4.838160429885062,
+                        180.51694840664072,
+                        73.43657230667094,
+                        44.40943268123455,
+                        60.078983929648004,
+                        22.097208043520578,
+                        17.435961467006425,
+                        59.83879076444668,
+                        54.91012367802174,
+                        14.898872110671073,
+                        66.17621266262712,
+                        56.429984286459344,
+                        28.727883851147258,
+                        99.60215209456749,
+                        51.61153896664346,
+                        18.098078148859056,
+                        36.92072535647913,
+                        16.478540157983964,
+                        15.119597273675197,
+                        20.86311006448216,
+                        7.730206003472524,
+                        10.896977592292412,
+                        23.789258789933264,
+                        5.384364366025851,
+                        9.649736141648882,
+                        4.237240445768106,
+                        16.030728673199505,
+                        2.2744630365428837,
+                        10.273194988205981,
+                        2.3013028099271,
+                        2.0300618263229206,
+                        1.9479352971454555,
+                        2.5496357359539323,
+                        2.2978136508514058,
+                        2.451759584005123,
+                        3.5377504935941197,
+                        5.387617127773645,
+                        5.543109893984278,
+                        5.387652682594839,
+                        6.412288507104206,
+                        1.4687018016420514,
+                        3.6948428099235975,
+                        1.877412046525366,
+                        4.957206021075957,
+                        2.2334332285872005,
+                        1.870193266040156,
+                        2.4421067204760925,
+                        1.9703835307216324,
+                        1.8632428768315288,
+                        2.802156339540807,
+                        1.4871428535398672,
+                        2.0606600924954104,
+                        1.9177461741778628,
+                        1.6259225419992769,
+                        1.2044775388386857,
+                        1.641541583136456,
+                        2.687506846071105,
+                        2.6894173806813675,
+                        1.2403499719555189,
+                        1.7845401107420646,
+                        2.7989751777728755,
+                        2.1048752483138005,
+                        1.801549987274226,
+                        1.9345522524758374,
+                        1.8243101546701652
+                    ],
+                    "mean": [
+                        5.420869565217392,
+                        235.12753623188405,
+                        93.2631884057971,
+                        54.92405797101449,
+                        76.72173913043478,
+                        27.52231884057971,
+                        20.638840579710145,
+                        74.65739130434783,
+                        67.99246376811594,
+                        19.245217391304347,
+                        81.50608695652174,
+                        67.81333333333333,
+                        35.28231884057971,
+                        123.44231884057972,
+                        61.44695652173913,
+                        22.031884057971016,
+                        45.0568115942029,
+                        21.097971014492753,
+                        16.903188405797103,
+                        26.820869565217393,
+                        8.501449275362319,
+                        11.015072463768115,
+                        27.497391304347826,
+                        2.7397101449275363,
+                        13.09159420289855,
+                        4.488115942028985,
+                        19.11072463768116,
+                        1.4434782608695653,
+                        12.573333333333334,
+                        1.4689855072463769,
+                        1.4028985507246376,
+                        0.871304347826087,
+                        1.6515942028985506,
+                        1.048695652173913,
+                        1.2689855072463767,
+                        2.7228985507246377,
+                        4.1692753623188405,
+                        4.413913043478261,
+                        4.169855072463768,
+                        5.468985507246376,
+                        0.6707246376811594,
+                        2.5321739130434784,
+                        0.8660869565217392,
+                        2.7779710144927536,
+                        1.7414492753623187,
+                        1.4527536231884057,
+                        1.647536231884058,
+                        0.7594202898550725,
+                        1.1188405797101448,
+                        1.897391304347826,
+                        0.6805797101449276,
+                        1.007536231884058,
+                        1.0794202898550724,
+                        0.8092753623188406,
+                        0.7292753623188406,
+                        0.2081159420289855,
+                        1.6771014492753624,
+                        1.2660869565217392,
+                        0.5443478260869565,
+                        1.0185507246376813,
+                        1.7142028985507247,
+                        0.9495652173913044,
+                        0.32869565217391306,
+                        1.0805797101449275,
+                        0.06376811594202898
+                    ],
+                    "var": [
+                        23.407796345305606,
+                        32586.36866204579,
+                        5392.930152152909,
+                        1972.1977110691032,
+                        3609.4843100189028,
+                        488.28660331863045,
+                        304.0127522789329,
+                        3580.680880151229,
+                        3015.1216823356435,
+                        221.97639017013233,
+                        4379.29112236925,
+                        3184.3431265700483,
+                        825.2913105650074,
+                        9920.588701869356,
+                        2663.750954505356,
+                        327.5404326822096,
+                        1363.139960848561,
+                        271.5422857382902,
+                        228.60222171812646,
+                        435.2693615626969,
+                        59.756084856122655,
+                        118.74412064692292,
+                        565.9288337744171,
+                        28.991379626128968,
+                        93.11740760344465,
+                        17.954206595253098,
+                        256.9842617937408,
+                        5.173182104599875,
+                        105.53853526570047,
+                        5.295994622978366,
+                        4.121151018693552,
+                        3.7944519218651545,
+                        6.500642386053351,
+                        5.279947574039066,
+                        6.011125057760974,
+                        12.515678554925438,
+                        29.02641831547994,
+                        30.726067296786397,
+                        29.026801428271373,
+                        41.11744389834069,
+                        2.157084982146608,
+                        13.651863390044106,
+                        3.5246759924385636,
+                        24.573891535391727,
+                        4.988223986557446,
+                        3.4976228523419453,
+                        5.963885234194496,
+                        3.882411258139046,
+                        3.4716740180634313,
+                        7.852080151228734,
+                        2.211593866834699,
+                        4.246320016803193,
+                        3.677750388573829,
+                        2.6436241125813904,
+                        1.4507661415668978,
+                        2.6946587691661423,
+                        7.2226930476790585,
+                        7.232965847511027,
+                        1.5384680529300565,
+                        3.1845834068473007,
+                        7.8342620457887,
+                        4.430499810964083,
+                        3.2455823566477635,
+                        3.742492417559336,
+                        3.328107540432682
+                    ],
+                    "n_samples_seen": 1725,
+                    "n_features_in": 65,
+                    "columns": [
+                        "I",
+                        " ",
+                        "t",
+                        "h",
+                        "o",
+                        "u",
+                        "g",
+                        "i",
+                        "s",
+                        "w",
+                        "a",
+                        "n",
+                        "d",
+                        "e",
+                        "r",
+                        "f",
+                        "l",
+                        "y",
+                        "p",
+                        "m",
+                        "k",
+                        ",",
+                        "c",
+                        "-",
+                        ".",
+                        "T",
+                        "b",
+                        "(",
+                        "v",
+                        ")",
+                        "W",
+                        "z",
+                        "M",
+                        "P",
+                        "R",
+                        "A",
+                        "<",
+                        "/",
+                        ">",
+                        "'",
+                        "?",
+                        "S",
+                        "J",
+                        "\"",
+                        "x",
+                        "j",
+                        "D",
+                        "1",
+                        "L",
+                        "B",
+                        "V",
+                        "G",
+                        "O",
+                        "0",
+                        "q",
+                        "&",
+                        "H",
+                        "E",
+                        "K",
+                        "F",
+                        "C",
+                        "!",
+                        "*",
+                        "N",
+                        "_"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "I": [
+                        "scale_normal"
+                    ],
+                    " ": [
+                        "scale_normal"
+                    ],
+                    "t": [
+                        "scale_normal"
+                    ],
+                    "h": [
+                        "scale_normal"
+                    ],
+                    "o": [
+                        "scale_normal"
+                    ],
+                    "u": [
+                        "scale_normal"
+                    ],
+                    "g": [
+                        "scale_normal"
+                    ],
+                    "i": [
+                        "scale_normal"
+                    ],
+                    "s": [
+                        "scale_normal"
+                    ],
+                    "w": [
+                        "scale_normal"
+                    ],
+                    "a": [
+                        "scale_normal"
+                    ],
+                    "n": [
+                        "scale_normal"
+                    ],
+                    "d": [
+                        "scale_normal"
+                    ],
+                    "e": [
+                        "scale_normal"
+                    ],
+                    "r": [
+                        "scale_normal"
+                    ],
+                    "f": [
+                        "scale_normal"
+                    ],
+                    "l": [
+                        "scale_normal"
+                    ],
+                    "y": [
+                        "scale_normal"
+                    ],
+                    "p": [
+                        "scale_normal"
+                    ],
+                    "m": [
+                        "scale_normal"
+                    ],
+                    "k": [
+                        "scale_normal"
+                    ],
+                    ",": [
+                        "scale_normal"
+                    ],
+                    "c": [
+                        "scale_normal"
+                    ],
+                    "-": [
+                        "scale_normal"
+                    ],
+                    ".": [
+                        "scale_normal"
+                    ],
+                    "T": [
+                        "scale_normal"
+                    ],
+                    "b": [
+                        "scale_normal"
+                    ],
+                    "(": [
+                        "scale_normal"
+                    ],
+                    "v": [
+                        "scale_normal"
+                    ],
+                    ")": [
+                        "scale_normal"
+                    ],
+                    "W": [
+                        "scale_normal"
+                    ],
+                    "z": [
+                        "scale_normal"
+                    ],
+                    "M": [
+                        "scale_normal"
+                    ],
+                    "P": [
+                        "scale_normal"
+                    ],
+                    "R": [
+                        "scale_normal"
+                    ],
+                    "A": [
+                        "scale_normal"
+                    ],
+                    "<": [
+                        "scale_normal"
+                    ],
+                    "/": [
+                        "scale_normal"
+                    ],
+                    ">": [
+                        "scale_normal"
+                    ],
+                    "'": [
+                        "scale_normal"
+                    ],
+                    "?": [
+                        "scale_normal"
+                    ],
+                    "S": [
+                        "scale_normal"
+                    ],
+                    "J": [
+                        "scale_normal"
+                    ],
+                    "\"": [
+                        "scale_normal"
+                    ],
+                    "x": [
+                        "scale_normal"
+                    ],
+                    "j": [
+                        "scale_normal"
+                    ],
+                    "D": [
+                        "scale_normal"
+                    ],
+                    "1": [
+                        "scale_normal"
+                    ],
+                    "L": [
+                        "scale_normal"
+                    ],
+                    "B": [
+                        "scale_normal"
+                    ],
+                    "V": [
+                        "scale_normal"
+                    ],
+                    "G": [
+                        "scale_normal"
+                    ],
+                    "O": [
+                        "scale_normal"
+                    ],
+                    "0": [
+                        "scale_normal"
+                    ],
+                    "q": [
+                        "scale_normal"
+                    ],
+                    "&": [
+                        "scale_normal"
+                    ],
+                    "H": [
+                        "scale_normal"
+                    ],
+                    "E": [
+                        "scale_normal"
+                    ],
+                    "K": [
+                        "scale_normal"
+                    ],
+                    "F": [
+                        "scale_normal"
+                    ],
+                    "C": [
+                        "scale_normal"
+                    ],
+                    "!": [
+                        "scale_normal"
+                    ],
+                    "*": [
+                        "scale_normal"
+                    ],
+                    "N": [
+                        "scale_normal"
+                    ],
+                    "\u2013": [
+                        "remove_column"
+                    ],
+                    "_": [
+                        "scale_normal"
+                    ],
+                    "\u00ec": [
+                        "remove_column"
+                    ],
+                    "\u00c1": [
+                        "remove_column"
+                    ],
+                    "\u201d": [
+                        "remove_column"
+                    ],
+                    "\u00a7": [
+                        "remove_column"
+                    ],
+                    "\u00e2": [
+                        "remove_column"
+                    ],
+                    "\u00d6": [
+                        "remove_column"
+                    ],
+                    "\u00cf": [
+                        "remove_column"
+                    ],
+                    "\u00f9": [
+                        "remove_column"
+                    ],
+                    "\u00d0": [
+                        "remove_column"
+                    ],
+                    "\u00f5": [
+                        "remove_column"
+                    ],
+                    "\\": [
+                        "remove_column"
+                    ],
+                    "\u014d": [
+                        "remove_column"
+                    ],
+                    "\u0010": [
+                        "remove_column"
+                    ],
+                    "\u00ee": [
+                        "remove_column"
+                    ],
+                    "\u00a0": [
+                        "remove_column"
+                    ],
+                    "\u00df": [
+                        "remove_column"
+                    ],
+                    "|": [
+                        "remove_column"
+                    ],
+                    "\u00f8": [
+                        "remove_column"
+                    ],
+                    "\u2026": [
+                        "remove_column"
+                    ],
+                    "\b": [
+                        "remove_column"
+                    ],
+                    "\u0080": [
+                        "remove_column"
+                    ],
+                    "\u00be": [
+                        "remove_column"
+                    ],
+                    "\u00dc": [
+                        "remove_column"
+                    ],
+                    "\u00c6": [
+                        "remove_column"
+                    ],
+                    "\u00ae": [
+                        "remove_column"
+                    ],
+                    "\u00f2": [
+                        "remove_column"
+                    ],
+                    "\u00b0": [
+                        "remove_column"
+                    ],
+                    "\u2033": [
+                        "remove_column"
+                    ],
+                    "\u00de": [
+                        "remove_column"
+                    ],
+                    "\u00b3": [
+                        "remove_column"
+                    ],
+                    "\u00c0": [
+                        "remove_column"
+                    ],
+                    "\u008e": [
+                        "remove_column"
+                    ],
+                    "\u009e": [
+                        "remove_column"
+                    ],
+                    "\u00c7": [
+                        "remove_column"
+                    ],
+                    "\u00a8": [
+                        "remove_column"
+                    ],
+                    "\u00ad": [
+                        "remove_column"
+                    ],
+                    "\u00c8": [
+                        "remove_column"
+                    ],
+                    "\u00a9": [
+                        "remove_column"
+                    ],
+                    "\u00aa": [
+                        "remove_column"
+                    ],
+                    "\u00a4": [
+                        "remove_column"
+                    ],
+                    "\u008d": [
+                        "remove_column"
+                    ],
+                    "\u05d9": [
+                        "remove_column"
+                    ],
+                    "\u05d2": [
+                        "remove_column"
+                    ],
+                    "\u05d0": [
+                        "remove_column"
+                    ],
+                    "\u05dc": [
+                        "remove_column"
+                    ],
+                    "\u05db": [
+                        "remove_column"
+                    ],
+                    "\u05e8": [
+                        "remove_column"
+                    ],
+                    "\u05de": [
+                        "remove_column"
+                    ],
+                    "\u05d5": [
+                        "remove_column"
+                    ],
+                    "\u05df": [
+                        "remove_column"
+                    ],
+                    "\u2605": [
+                        "remove_column"
+                    ],
+                    "\u00ca": [
+                        "remove_column"
+                    ],
+                    "\uff0c": [
+                        "remove_column"
+                    ],
+                    "\u3001": [
+                        "remove_column"
+                    ],
+                    "\u00c5": [
+                        "remove_column"
+                    ],
+                    "\u00d8": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "Logistic Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "2e4e75da-c673-421e-bf7c-bd01a6240d83",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "I": [
+                    "scale_normal"
+                ],
+                " ": [
+                    "scale_normal"
+                ],
+                "t": [
+                    "scale_normal"
+                ],
+                "h": [
+                    "scale_normal"
+                ],
+                "o": [
+                    "scale_normal"
+                ],
+                "u": [
+                    "scale_normal"
+                ],
+                "g": [
+                    "scale_normal"
+                ],
+                "i": [
+                    "scale_normal"
+                ],
+                "s": [
+                    "scale_normal"
+                ],
+                "w": [
+                    "scale_normal"
+                ],
+                "a": [
+                    "scale_normal"
+                ],
+                "n": [
+                    "scale_normal"
+                ],
+                "d": [
+                    "scale_normal"
+                ],
+                "e": [
+                    "scale_normal"
+                ],
+                "r": [
+                    "scale_normal"
+                ],
+                "f": [
+                    "scale_normal"
+                ],
+                "l": [
+                    "scale_normal"
+                ],
+                "y": [
+                    "scale_normal"
+                ],
+                "p": [
+                    "scale_normal"
+                ],
+                "m": [
+                    "scale_normal"
+                ],
+                "k": [
+                    "scale_normal"
+                ],
+                ",": [
+                    "scale_normal"
+                ],
+                "c": [
+                    "scale_normal"
+                ],
+                "-": [
+                    "scale_normal"
+                ],
+                ".": [
+                    "scale_normal"
+                ],
+                "T": [
+                    "scale_normal"
+                ],
+                "b": [
+                    "scale_normal"
+                ],
+                "(": [
+                    "scale_normal"
+                ],
+                "v": [
+                    "scale_normal"
+                ],
+                ")": [
+                    "scale_normal"
+                ],
+                "W": [
+                    "scale_normal"
+                ],
+                "z": [
+                    "scale_normal"
+                ],
+                "M": [
+                    "scale_normal"
+                ],
+                "P": [
+                    "scale_normal"
+                ],
+                "R": [
+                    "scale_normal"
+                ],
+                "A": [
+                    "scale_normal"
+                ],
+                "<": [
+                    "scale_normal"
+                ],
+                "/": [
+                    "scale_normal"
+                ],
+                ">": [
+                    "scale_normal"
+                ],
+                "'": [
+                    "scale_normal"
+                ],
+                "?": [
+                    "scale_normal"
+                ],
+                "S": [
+                    "scale_normal"
+                ],
+                "J": [
+                    "scale_normal"
+                ],
+                "\"": [
+                    "scale_normal"
+                ],
+                "x": [
+                    "scale_normal"
+                ],
+                "j": [
+                    "scale_normal"
+                ],
+                "D": [
+                    "scale_normal"
+                ],
+                "1": [
+                    "scale_normal"
+                ],
+                "L": [
+                    "scale_normal"
+                ],
+                "B": [
+                    "scale_normal"
+                ],
+                "V": [
+                    "scale_normal"
+                ],
+                "G": [
+                    "scale_normal"
+                ],
+                "O": [
+                    "scale_normal"
+                ],
+                "0": [
+                    "scale_normal"
+                ],
+                "q": [
+                    "scale_normal"
+                ],
+                "&": [
+                    "scale_normal"
+                ],
+                "H": [
+                    "scale_normal"
+                ],
+                "E": [
+                    "scale_normal"
+                ],
+                "K": [
+                    "scale_normal"
+                ],
+                "F": [
+                    "scale_normal"
+                ],
+                "C": [
+                    "scale_normal"
+                ],
+                "!": [
+                    "scale_normal"
+                ],
+                "*": [
+                    "scale_normal"
+                ],
+                "N": [
+                    "scale_normal"
+                ],
+                "\u2013": [
+                    "remove_column"
+                ],
+                "_": [
+                    "scale_normal"
+                ],
+                "\u00ec": [
+                    "remove_column"
+                ],
+                "\u00c1": [
+                    "remove_column"
+                ],
+                "\u201d": [
+                    "remove_column"
+                ],
+                "\u00a7": [
+                    "remove_column"
+                ],
+                "\u00e2": [
+                    "remove_column"
+                ],
+                "\u00d6": [
+                    "remove_column"
+                ],
+                "\u00cf": [
+                    "remove_column"
+                ],
+                "\u00f9": [
+                    "remove_column"
+                ],
+                "\u00d0": [
+                    "remove_column"
+                ],
+                "\u00f5": [
+                    "remove_column"
+                ],
+                "\\": [
+                    "remove_column"
+                ],
+                "\u014d": [
+                    "remove_column"
+                ],
+                "\u0010": [
+                    "remove_column"
+                ],
+                "\u00ee": [
+                    "remove_column"
+                ],
+                "\u00a0": [
+                    "remove_column"
+                ],
+                "\u00df": [
+                    "remove_column"
+                ],
+                "|": [
+                    "remove_column"
+                ],
+                "\u00f8": [
+                    "remove_column"
+                ],
+                "\u2026": [
+                    "remove_column"
+                ],
+                "\b": [
+                    "remove_column"
+                ],
+                "\u0080": [
+                    "remove_column"
+                ],
+                "\u00be": [
+                    "remove_column"
+                ],
+                "\u00dc": [
+                    "remove_column"
+                ],
+                "\u00c6": [
+                    "remove_column"
+                ],
+                "\u00ae": [
+                    "remove_column"
+                ],
+                "\u00f2": [
+                    "remove_column"
+                ],
+                "\u00b0": [
+                    "remove_column"
+                ],
+                "\u2033": [
+                    "remove_column"
+                ],
+                "\u00de": [
+                    "remove_column"
+                ],
+                "\u00b3": [
+                    "remove_column"
+                ],
+                "\u00c0": [
+                    "remove_column"
+                ],
+                "\u008e": [
+                    "remove_column"
+                ],
+                "\u009e": [
+                    "remove_column"
+                ],
+                "\u00c7": [
+                    "remove_column"
+                ],
+                "\u00a8": [
+                    "remove_column"
+                ],
+                "\u00ad": [
+                    "remove_column"
+                ],
+                "\u00c8": [
+                    "remove_column"
+                ],
+                "\u00a9": [
+                    "remove_column"
+                ],
+                "\u00aa": [
+                    "remove_column"
+                ],
+                "\u00a4": [
+                    "remove_column"
+                ],
+                "\u008d": [
+                    "remove_column"
+                ],
+                "\u05d9": [
+                    "remove_column"
+                ],
+                "\u05d2": [
+                    "remove_column"
+                ],
+                "\u05d0": [
+                    "remove_column"
+                ],
+                "\u05dc": [
+                    "remove_column"
+                ],
+                "\u05db": [
+                    "remove_column"
+                ],
+                "\u05e8": [
+                    "remove_column"
+                ],
+                "\u05de": [
+                    "remove_column"
+                ],
+                "\u05d5": [
+                    "remove_column"
+                ],
+                "\u05df": [
+                    "remove_column"
+                ],
+                "\u2605": [
+                    "remove_column"
+                ],
+                "\u00ca": [
+                    "remove_column"
+                ],
+                "\uff0c": [
+                    "remove_column"
+                ],
+                "\u3001": [
+                    "remove_column"
+                ],
+                "\u00c5": [
+                    "remove_column"
+                ],
+                "\u00d8": [
+                    "remove_column"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_10\\X.data",
+            "y_path": "AutoML_10\\y.data",
+            "results_path": "AutoML_10"
+        },
+        "learner": {
+            "model_type": "Linear",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "3_Linear",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 360.0
+    },
+    "saved": [
+        "3_Linear\\learner_fold_0.linear"
+    ],
+    "predictions_fname": "3_Linear\\predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.6359197775085859,
+    "train_time": 8.862443685531616,
+    "is_stacked": false,
+    "threshold": 0.5211135318846322
+}
